@@ -1,0 +1,21 @@
+
+{
+    "manifest_version": 2,
+    "name": "Aralinks Extension",
+    "version": "1.0",
+    "permissions": [
+        "tabs"
+    ],
+    "description": "Make aralinks useful",
+    "background":{
+        "scripts": ["./back.js"]
+    },
+    "content_scripts":[
+        {
+            "matches": [
+                "https://csahs.aralinks.net/*", "https://csags.aralinks.net/*"
+            ],
+            "js": ["content.js"]
+        }
+    ]
+}
