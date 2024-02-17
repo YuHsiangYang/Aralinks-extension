@@ -1,20 +1,19 @@
-## Features
-1. Lets you to auto log in to Aralinks account.
-2. Auto-expand the left column of the Aralinks page so that you can see all the subjects.
-3. Auto-expand all the materials inside the subject.
+[英文](README-en.md)
+## 功能
+1. 讓您自動登入到Aralinks帳戶。
+2. 自動展開Aralinks頁面的左欄，讓您可以看到所有的科目。
+3. 自動展開科目內的所有材料。
 
-## How to use
-Step 1: Download the extension from the releases page. \
-Step 2: Turn on the browser developer mode.
-- For Chrome: Go to `chrome://extensions/` and turn on the developer mode.
-- For Firefox: Go to `about:debugging#/runtime/this-firefox` and click `Load Temporary Add-on...` and select the extension file.
-- For Microsoft Edge: Go to `edge://extensions/` and turn on the developer mode.
+## 如何使用
+步驟1：從發布頁面下載擴充功能。
+步驟2：開啟瀏覽器的開發者模式。
+- Chrome：前往chrome://extensions/並開啟開發者模式。
+- Firefox：前往about:debugging#/runtime/this-firefox，點擊Load Temporary Add-on...並選擇擴充功能檔案。
+- Microsoft Edge：前往edge://extensions/並開啟開發者模式。
 
-Step 3: Click load unpacked \
-Step 4: Browse into the directory of the extension and select the folder.\
-Done! You can now use the extension.
+步驟3：點擊載入未封裝項目\
+步驟4：瀏覽到擴充功能的目錄並選擇資料夾。
+完成！您現在可以使用該擴充功能。
 
-## Why I create this extension?
-This motivation came from the LMS that I am using, which is Aralinks. This LMS has given me a bad user experience during the 3-4 years I've been using it, but we are forced to use this LMS due to the contract between my school and the company (Aralinks). So, I tried to make my experience better by creating this extension.
-
-I started with the login. Every time I close the tab, I have to log in again. So, I created a feature that automatically logs me into my account. Then, I noticed that the left column, the subjects panel, is not expanded, so I created a script that automatically expands the left column. I realized that this extension could be even better if the materials in a certain subject could auto-expand, so I added the feature to auto-expand the materials after the page is loaded.
+## 為什麼我要創建這個擴充功能？
+這個動機來自我正在使用的Learning Management System (LMS)，即Aralinks。這個LMS在我使用的3-4年中給我帶來了糟糕的用戶體驗，但由於我校與公司（Aralinks）之間的合作，我們被迫使用這個LMS。所以，我寫了這個擴充功能來改善我的使用者體驗。
