@@ -1,4 +1,4 @@
-[中文](.\README.MD)
+[中文](ReadME.md)
 
 ## Features
 1. Lets you to auto log in to Aralinks account.
